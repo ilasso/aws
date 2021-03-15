@@ -3,6 +3,7 @@ frontend:
   phases:
     preBuild:
       commands: 
+      - cd amplify-js-app
       - npm install
     # IMPORTANT - Please verify your build commands
     build:
